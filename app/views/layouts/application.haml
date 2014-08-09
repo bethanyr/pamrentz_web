@@ -1,0 +1,13 @@
+%head
+    %title Pamela J. Rentz Communications B2B Marketing Copywriter Atlanta, Georgia
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+    %meta{charset: "utf-8"}/
+    %meta{content: "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content: "yes", name: "mobile-web-app-capable"}/
+    %meta{name: "viewport", content: "width=device-width, initial-scale: 1.0"}
+    = javascript_include_tag "vendor/modernizr"
+    
+    %body
+    = yield
