@@ -17,6 +17,8 @@ gem 'unicorn'
 
 gem 'foundation-rails'
 
+gem 'angularjs-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -51,3 +53,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+ruby '2.1.1'

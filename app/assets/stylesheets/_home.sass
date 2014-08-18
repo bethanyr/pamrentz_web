@@ -4,35 +4,68 @@ $pale_pink: rgb(255,153,204)
 $fuscia: rgb(204,0,102)
 $maroon: rgb(153,0,51)
 
+#intro
+  background-position: 100% 0px
+  background: image-url("backgrounds-pinkflowers-top.gif") 100% 0 repeat fixed
+  color: $pale_pink
+  height: 600px
+  margin: 0 auto
+  padding: 0
+.home-section
+  background-color: $pale_pink
+  background-position: 50% 0px
+  text-align: left
+  padding: $lineHeight 0 $lineHeight*4
+  margin: 100
+  opacity: .7
+  h1
+    color: $fuscia
+    font-size: 4em
+    font: Georgia
+    text-align: right
+    margin: 30
+    padding: 10
+  p
+    color: black
+    font-size: 1em
+    font: Georgia
+    text-align: center
+    margin: 100
+    padding: 10
+
 .site-header
-  background-image: image-url("nav.png")
+  background-image: image-url("backgrounds-green-top.jpg")
   background-repeat:no-repeat
   background-size: 100%
   top: 0px
   left: 0px
   overflow: hidden
   width: 100%
-  height: 80px
+  height: 140px
   margin: 0px
   padding: 0px
-  z-index: 999
-  opacity: .7  
+  opacity: 1 
+
+  img
+    z-index: 1
 
   h1
     color: white
-    font-size: 1em
+    font-size: 2em
     font: Georgia
     text-align: right
-    margin: 30
+    margin: 40
     padding: 10
 nav 
+  position: fixed
+  background-color: black
+  opacity: .5
   ul
-    margin: 80
+    margin: 0
     padding: 0
     list-style-type: none
     background-color: black
-    height: 40px
-  li
+    height: 50px
 
   a 
     padding: 6px 12px
@@ -44,37 +77,77 @@ nav
 
 h1
   color: maroon
-  font-size: 2em
+  font-size: 4em
   font: Georgia
   text-align: center
 
 p
-  color: dirt
+  color: black
   font: Lucida sans typewriter
 
-.home-section
-  background: $pale_pink
-  text-align: left
-  padding: $lineHeight 0 $lineHeight*4
-  margin: 100
+body
+  
 
 .expertise-section
   background: $green
   text-align: left
   padding: $lineHeight 0 $lineHeight*4
   margin: 100
+  background-image: image-url("background-expertise.jpg")
+  background-repeat:no-repeat
+  background-size: 100%
+  height: 800px
+  h1
+    color: white
+    background-color: black
+    height: 40
+    font-size: 4em
+    font: Georgia
+    text-align: center
+    margin: 40
+    padding: 10
+    z-index: 1
 
 .about-section
   background: $green
   text-align: left
   padding: $lineHeight 0 $lineHeight*4
   margin: 100
+  background-image: image-url("backgrounds-about.jpg")
+  background-alignment: fixed
+  background-repeat:no-repeat
+  background-size: 100%
+  height: 800px
+  h1
+    color: white
+    background-color: black
+    height: 40
+    font-size: 4em
+    font: Georgia
+    text-align: center
+    margin: 40
+    padding: 10
+    z-index: 1
 
 .contact-section
-  background: $green
+  background: $maroon
   text-align: left
   padding: $lineHeight 0 $lineHeight*4
   margin: 100
+  height: 800px
+  h1
+    color: white
+    background-color: black
+    height: 40
+    font-size: 4em
+    font: Georgia
+    text-align: center
+    margin: 40
+    padding: 10
+    z-index: 1
+  p
+    color: white
+    font: Lucida sans typewriter
 
 
 
